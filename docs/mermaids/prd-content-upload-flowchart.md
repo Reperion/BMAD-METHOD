@@ -9,7 +9,7 @@ graph TD
     C --> A;
     B -- Yes --> D[App Detects Current Location];
     D --> E[User Selects Upload Content];
-    E --> F[User Chooses Content Type (Text, Image, Video)];
+    E --> F[User Chooses Content Type];
     F --> G[User Captures/Selects Content];
     G --> H[User Adds Caption/Description];
     H --> I[User Adds Categories/Tags (Optional)];
