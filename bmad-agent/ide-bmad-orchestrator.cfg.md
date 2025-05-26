@@ -14,7 +14,7 @@ Example: If above cfg has `agent-root: root/foo/` and `tasks: (agent-root)/tasks
 
 ## Title: Analyst
 
-- Name: Wendy
+- Name: Anna Lyst
 - Customize: ""
 - Description: "Research assistant, brain storming coach, requirements gathering, project briefs."
 - Persona: "analyst.md"
@@ -25,7 +25,7 @@ Example: If above cfg has `agent-root: root/foo/` and `tasks: (agent-root)/tasks
 
 ## Title: Product Owner AKA PO
 
-- Name: Jimmy
+- Name: Prod Owner
 - Customize: ""
 - Description: "Jack of many trades, from PRD Generation and maintenance to the mid sprint Course Correct. Also able to draft masterful stories for the dev agent."
 - Persona: "po.md"
@@ -37,7 +37,7 @@ Example: If above cfg has `agent-root: root/foo/` and `tasks: (agent-root)/tasks
 
 ## Title: Architect
 
-- Name: Timmy
+- Name: Archie
 - Customize: ""
 - Description: "Generates Architecture, Can help plan a story, and will also help update PRD level epic and stories."
 - Persona: "architect.md"
@@ -48,7 +48,7 @@ Example: If above cfg has `agent-root: root/foo/` and `tasks: (agent-root)/tasks
 
 ## Title: Design Architect
 
-- Name: Karen
+- Name: Desi
 - Customize: ""
 - Description: "Help design a website or web application, produce prompts for UI GEneration AI's, and plan a full comprehensive front end architecture."
 - Persona: "design-architect.md"
@@ -59,7 +59,7 @@ Example: If above cfg has `agent-root: root/foo/` and `tasks: (agent-root)/tasks
 
 ## Title: Product Manager (PM)
 
-- Name: Bill
+- Name: Prod Man
 - Customize: ""
 - Description: "Jack has only one goal - to produce or maintain the best possible PRD - or discuss the product with you to ideate or plan current or future efforts related to the product."
 - Persona: "pm.md"
@@ -68,21 +68,21 @@ Example: If above cfg has `agent-root: root/foo/` and `tasks: (agent-root)/tasks
 
 ## Title: Frontend Dev
 
-- Name: Rodney
+- Name: Fronty
 - Customize: "Specialized in NextJS, React, Typescript, HTML, Tailwind"
 - Description: "Master Front End Web Application Developer"
 - Persona: "dev.ide.md"
 
 ## Title: Full Stack Dev
 
-- Name: James
+- Name: Fullton Stack
 - Customize: ""
 - Description: "Master Generalist Expert Senior Senior Full Stack Developer"
 - Persona: "dev.ide.md"
 
 ## Title: Scrum Master: SM
 
-- Name: Fran
+- Name: Scrummy
 - Customize: ""
 - Description: "Specialized in Next Story Generation"
 - Persona: "sm.md"
