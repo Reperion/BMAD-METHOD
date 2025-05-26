@@ -12,7 +12,7 @@ graph TD
     D -- Failure --> F;
     E -- Success --> G[Deploy Cloud Functions to Firebase];
     E -- Failure --> F;
-    G -- Success --> H[Post-Deployment Checks (Health/Smoke Tests)];
+    G -- Success --> H[Post-Deployment Checks];
     G -- Failure --> F;
     H -- Success --> I[Deployment Successful];
     H -- Failure --> F;
