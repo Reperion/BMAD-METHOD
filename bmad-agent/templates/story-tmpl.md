@@ -1,34 +1,27 @@
-# Story {EpicNum}.{StoryNum}: {Short Title Copied from Epic File}
+# Story {EpicNum}.{StoryNum}: {Short Title}
 
-## Status: { Draft | Approved | InProgress | Review | Done }
+## Status: {Status}
 
 ## Story
 
-- As a [role]
-- I want [action]
-- so that [benefit]
+{User Story statement from Epic}
 
 ## Acceptance Criteria (ACs)
 
-{ Copy the Acceptance Criteria numbered list }
+{List of Acceptance Criteria from Epic, refined if needed}
+
+## Dev Technical Guidance
+
+{Concise but critical snippets of information, specific data structures, API endpoint details, precise references to _specific sections_ in other documents, or brief explanations of how architectural patterns apply to _this story_.}
 
 ## Tasks / Subtasks
 
-- [ ] Task 1 (AC: # if applicable)
-  - [ ] Subtask1.1...
-- [ ] Task 2 (AC: # if applicable)
-  - [ ] Subtask 2.1...
-- [ ] Task 3 (AC: # if applicable)
-  - [ ] Subtask 3.1...
+{Detailed, sequential list of technical tasks and subtasks the Dev Agent must perform to complete the story, informed by the gathered context.}
 
-## Dev Technical Guidance {detail not covered in tasks/subtasks}
+## Project Structure Notes
 
-## Story Progress Notes
+{Notes on project structure alignment or discrepancies found during analysis.}
 
-### Agent Model Used: `<Agent Model Name/Version>`
+## Deviation Analysis
 
-### Completion Notes List
-
-{Any notes about implementation choices, difficulties, or follow-up needed}
-
-### Change Log
+{Analysis of any discrepancies between the original epic-defined scope and the detailed technical context.}
