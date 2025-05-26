@@ -30,7 +30,7 @@ graph TD
     B --> |Configured as| C[Single Persona Agent];
     B --> |Configured as| D[Orchestrator BMad Agent];
     C --> E[Performs Role];
-    D --> |"Become" Persona| C;
+    D --> |Become Persona| C;
     C --> F[Utilizes Checklists];
     C --> G[Utilizes Templates];
     C --> H[Utilizes Data/KB];
@@ -73,7 +73,7 @@ graph LR
     B --> C2[Option 2: Orchestrator BMad Agent];
     C2 --> C2a[Paste ide-bmad-orchestrator.md content];
     C2a --> D2[User Interacts with Orchestrator];
-    D2 --> D2a{Orchestrator "Becomes" Persona};
+    D2 --> D2a{Orchestrator Becomes Persona};
     D2a --> D1;
 
     D1 --> E{Agent Action};
