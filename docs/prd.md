@@ -1,7 +1,7 @@
 # Product Requirements Document: Location-Based Content Platform
 
 ## 1. Introduction
-This document outlines the requirements for a new location-based services platform, enabling users to upload and view content tied to specific geographic locations. The platform aims to solve a hidden need for localized content discovery and notification, serving both consumers and businesses. It will feature a dark theme with vibrant colors and integrate with Mapbox for map display.
+This document outlines the requirements for a new location-based services platform, enabling users to upload and view content tied to specific geographic locations. The platform aims to solve a hidden need for localized content discovery and notification, serving both consumers and businesses. **It will be delivered primarily as a Progressive Web App (PWA)**, featuring a dark theme with vibrant colors and integrating with Mapbox for map display.
 
 ## 2. Goals
 *   Provide a universal platform for browsing and getting notified about local content for consumers and businesses.

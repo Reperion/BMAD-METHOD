@@ -1,7 +1,7 @@
 # UX/UI Specification: Location-Based Content Platform
 
 ## 1. Introduction
-This document details the User Experience (UX) and User Interface (UI) specifications for the Location-Based Content Platform, emphasizing a dark theme with vibrant accents, intuitive navigation, and seamless integration with Mapbox for location-based interactions. It incorporates a mandatory content rating system and robust social interaction features.
+This document details the User Experience (UX) and User Interface (UI) specifications for the Location-Based Content Platform. **The platform will be delivered primarily as a Progressive Web App (PWA)**, emphasizing a dark theme with vibrant accents, intuitive navigation, and seamless integration with Mapbox for location-based interactions. It incorporates a mandatory content rating system and robust social interaction features.
 
 ## 2. Design Principles
 *   **Dark & Vibrant:** Primary aesthetic will be a dark theme, utilizing deep grays and blacks, contrasted with vibrant, high-contrast accent colors (e.g., electric blue, neon green, bright magenta) for interactive elements, highlights, and calls to action.

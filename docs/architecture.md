@@ -1,7 +1,7 @@
 # Architecture Design Document: Location-Based Content Platform
 
 ## 1. Introduction
-This document outlines the high-level architecture for the Location-Based Content Platform, focusing on key components, data flow, and technology choices, with a strong emphasis on Firebase Studio and Google Cloud Platform (GCP) services. It supports location-based content, Mapbox integration, geofencing, push notifications (web, Android, iOS), email/SMS notifications, a dark-themed UI, a unique mandatory voting system, and real-time social interactions.
+This document outlines the high-level architecture for the Location-Based Content Platform, focusing on key components, data flow, and technology choices, with a strong emphasis on Firebase Studio and Google Cloud Platform (GCP) services. **The platform will be delivered primarily as a Progressive Web App (PWA)**, supporting location-based content, Mapbox integration, geofencing, push notifications (web, Android, iOS), email/SMS notifications, a dark-themed UI, a unique mandatory voting system, and real-time social interactions.
 
 ## 2. High-Level System Diagram
 
