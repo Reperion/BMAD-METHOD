@@ -8,7 +8,7 @@ graph TD
     B -- No --> C[Prompt to Enable Location];
     C --> A;
     B -- Yes --> D[App Detects Current Location];
-    D --> E[User Selects "Upload Content"];
+    D --> E[User Selects Upload Content];
     E --> F[User Chooses Content Type (Text, Image, Video)];
     F --> G[User Captures/Selects Content];
     G --> H[User Adds Caption/Description];
