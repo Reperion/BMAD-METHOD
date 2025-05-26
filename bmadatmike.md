@@ -22,6 +22,8 @@ The BMAD-Method organizes its AI capabilities around several key components that
 
 The general workflow within an IDE using the BMAD-Method revolves around configuring custom agent modes and leveraging the structured assets within the `bmad-agent` folder.
 
+**Demonstration Note:** As the Orchestrator, I will now simulate the process of becoming an Architect Agent and executing a task to generate an architecture document, showcasing the dynamic capabilities of this framework.
+
 ```mermaid
 graph TD
     A[User Interaction] --> B{IDE Agent};

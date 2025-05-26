@@ -139,6 +139,29 @@ This is where the magic happens. You'll instruct the Orchestrator to adopt a dif
 
 Tasks are specialized instruction sets that agents can execute. They are perfect for one-off actions or complex operations that don't need to be part of an agent's core persona definition.
 
+## 5.3. Live Demonstration: Orchestrator, Persona Switching, and Task Execution
+
+Let's walk through a simulated example of how the Orchestrator BMad Agent can switch personas and execute a task, mirroring a real-world workflow.
+
+**Scenario:** You need to generate an architecture document for a new project.
+
+**Action:**
+1.  **Ensure your "BMAD Orchestrator" is the active agent** in your IDE's AI chat window.
+2.  **Instruct the Orchestrator to become the Architect Agent:**
+    `"Become the Architect Agent."`
+    *   *Expected Response:* The Orchestrator acknowledges the switch and confirms it is now acting as the Architect.
+3.  **Execute the `create-architecture.md` task:** This task guides the agent through generating an architecture document.
+    *   First, open `bmad-agent/tasks/create-architecture.md` and **copy its entire content**.
+    *   Then, in the chat, send a prompt like:
+        `"Please execute the following task to create an architecture document for a 'Sample Project'. Here is the task content:`
+        `[PASTE THE ENTIRE CONTENT OF create-architecture.md HERE]`
+        `"`
+    *   *Expected Interaction:* The Architect Agent (via the Orchestrator) will likely ask clarifying questions about the "Sample Project" (e.g., its purpose, key components, technologies). Provide brief, relevant answers.
+4.  **Observe Artifact Generation:** After the interaction, the Architect Agent will generate an architecture document.
+    *   *Expected Outcome:* A new markdown file (e.g., `sample-project-architecture.md`) will be created in your project's `(project-root)/docs/` directory, containing the drafted architecture.
+
+This demonstration illustrates the seamless flow: you interact with one Orchestrator, it adopts the necessary persona, and then executes a specific task, resulting in a structured artifact, all within your IDE.
+
 ### 5.1. What are Tasks and Why are They Useful?
 
 *   **Definition:** Tasks are markdown files in `bmad-agent/tasks/` that contain detailed instructions for a specific job.
