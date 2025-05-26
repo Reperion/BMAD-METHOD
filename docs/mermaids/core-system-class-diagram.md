@@ -17,9 +17,9 @@ classDiagram
     class Content {
         +String contentId
         +String userId
-        +String type (text, image, video)
-        +String mediaUrl (if image/video)
-        +String textContent (if text)
+        +String type
+        +String mediaUrl
+        +String textContent
         +Double latitude
         +Double longitude
         +String locationName
@@ -42,11 +42,11 @@ classDiagram
         +String geofenceId
         +String userId
         +String name
-        +String type (circle, polygon)
-        +Double centerLat (if circle)
-        +Double centerLon (if circle)
-        +Double radius (if circle)
-        +List~Point~ polygonPoints (if polygon)
+        +String type
+        +Double centerLat
+        +Double centerLon
+        +Double radius
+        +List~Point~ polygonPoints
         +List~String~ interestedCategories
         +List~String~ interestedTags
         +Boolean notifyOnEntry
@@ -56,7 +56,7 @@ classDiagram
     class Notification {
         +String notificationId
         +String userId
-        +String type (push, email, sms)
+        +String type
         +String message
         +String relatedContentId
         +DateTime sentAt

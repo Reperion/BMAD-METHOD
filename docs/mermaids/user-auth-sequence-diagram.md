@@ -9,10 +9,10 @@ sequenceDiagram
     participant AuthService
     participant Database
 
-    User->>ClientApp: Enters Credentials (Email, Password)
-    ClientApp->>AuthService: POST /login (Email, Password)
+    User->>ClientApp: Enters Credentials
+    ClientApp->>AuthService: POST /login
     AuthService->>Database: Query User by Email
-    Database-->>AuthService: User Data (or Not Found)
+    Database-->>AuthService: User Data or Not Found
 
     alt Successful Login
         AuthService->>AuthService: Verify Password
@@ -24,7 +24,7 @@ sequenceDiagram
     end
 
     alt Token Expiration / Refresh
-        ClientApp->>AuthService: POST /refresh-token (Expired Token)
+        ClientApp->>AuthService: POST /refresh-token
         AuthService->>AuthService: Validate Refresh Token
         AuthService->>ClientApp: 200 OK, New JWT Token
     else Invalid Refresh Token

@@ -24,7 +24,7 @@ gantt
 
     section Monitoring & Control
     Testing & QA                :d1, after c4, 15d
-    User Acceptance Testing (UAT):d2, after d1, 7d
+    User Acceptance Testing     :d2, after d1, 7d
     Bug Fixing                  :d3, after d2, 5d
 
     section Project Closure

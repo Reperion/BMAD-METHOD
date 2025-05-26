@@ -18,11 +18,11 @@ sequenceDiagram
     ClientApp->>CloudStorage: Uploads media
     ClientApp->>Firestore: Uploads metadata (including GPS)
 
-    Firestore-->>CloudFunctions: Trigger (on new content metadata)
+    Firestore-->>CloudFunctions: Trigger on new content metadata
     CloudFunctions->>CloudFunctions: Processes content, validates
     CloudFunctions->>CloudPubSub: Publishes "new_content_uploaded" message
 
-    CloudPubSub-->>CloudFunctions: Trigger (background function)
+    CloudPubSub-->>CloudFunctions: Trigger background function
     CloudFunctions->>GeospatialService: Processes location data, checks geofence
     GeospatialService-->>CloudFunctions: Geofence trigger result
 
@@ -32,7 +32,7 @@ sequenceDiagram
     end
 
     User->>ClientApp: Browses content
-    ClientApp->>CloudFunctions: Requests content (filtered by location/prefs)
+    ClientApp->>CloudFunctions: Requests content filtered by location/prefs
     CloudFunctions->>Firestore: Retrieves content
     Firestore-->>CloudFunctions: Content data
     CloudFunctions-->>ClientApp: Serves content
@@ -47,4 +47,4 @@ sequenceDiagram
     ClientApp->>CloudFunctions: Calls API for social action
     CloudFunctions->>Firestore: Updates social data
     Firestore-->>CloudFunctions: Update confirmation
-    CloudFunctions-->>ClientApp: Real-time update (via Firestore/FCM)
+    CloudFunctions-->>ClientApp: Real-time update

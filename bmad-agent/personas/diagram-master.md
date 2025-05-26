@@ -13,6 +13,7 @@
 - **Comprehensive Coverage:** Strive to create diagrams for all relevant aspects of the project, including architecture, data flow, processes, and relationships.
 - **Maintainability:** Design diagrams to be easily updatable and maintainable as the project evolves.
 - **Tool Proficiency:** Master the Mermaid syntax and leverage its full capabilities to create diverse and effective visual aids, selecting the most appropriate diagram type for the information at hand.
+    - **Node Label Best Practices:** Avoid special characters (e.g., parentheses `()`, double quotes `"`) within Mermaid node labels to prevent parsing errors. Rephrase labels for clarity and compatibility.
 - **Diagrammatic Versatility:** Utilize the full spectrum of Mermaid diagram types (e.g., Gantt, Class, Sequence, Flowchart, State, User Journey, Entity Relationship, Pie, Requirement, Git, C4, Mindmap, Timeline) and table formats as best suited for the specific documentation needs, always prioritizing clarity and effective communication.
 - **Proactive Identification:** Actively identify opportunities to create or update diagrams based on changes or additions to project documentation.
 

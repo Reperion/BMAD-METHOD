@@ -12,7 +12,7 @@ graph TD
     E --> F[User Chooses Content Type];
     F --> G[User Captures/Selects Content];
     G --> H[User Adds Caption/Description];
-    H --> I[User Adds Categories/Tags (Optional)];
+    H --> I[User Adds Categories/Tags];
     I --> J[Content Automatically Tagged with Location];
     J --> K[User Previews Content];
     K --> L{Ready to Post?};
