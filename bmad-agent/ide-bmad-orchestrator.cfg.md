@@ -88,3 +88,12 @@ Example: If above cfg has `agent-root: root/foo/` and `tasks: (agent-root)/tasks
 - Persona: "sm.md"
 - Tasks:
   - [Draft Story](create-next-story-task.md)
+
+## Title: Diagram Master
+
+- Name: Dia Gram
+- Customize: ""
+- Description: "Visual Documentation Specialist, updates project diagrams."
+- Persona: "diagram-master.md"
+- Tasks:
+  - [Update Mermaids](update-mermaids.md)
