@@ -50,3 +50,13 @@ This is an ongoing process of detailed user story breakdown. Subsequent refineme
 *   Geofencing & Notifications (Define custom geofenced areas, PC-based interface, Push/Email/SMS notifications)
 *   Business/Advertising Features (Location-Based Ad Creation, Targeted Advertising, Flash Deals)
 *   Social Interaction (Likes/Reactions, Comments, Basic Following/Follower Functionality)
+
+## Test User Credentials
+
+For testing purposes, the following user accounts are available:
+
+*   **Email:** Mike@Reperion.com
+    **Password:** K4hvdq9tJ0!
+
+*   **Email:** public1@reperion.com
+    **Password:** Mike33101
